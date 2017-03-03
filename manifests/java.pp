@@ -35,6 +35,9 @@ class logstash::java {
           'squeeze': {
             $package = 'openjdk-6-jre-headless'
           }
+          'jessie': {
+            $package = 'openjdk-8-jre-headless'
+          }
           default: {
             $package = 'openjdk-7-jre-headless'
           }
